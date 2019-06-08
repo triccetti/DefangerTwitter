@@ -9,7 +9,9 @@ An api that *defangs* and *refangs* url paths.
 
 #### Example usage with curl
 >  $ curl -X POST "http://127.0.0.1:5000/api/defang?path=https://twitter.com"
+
 >  $ curl -X POST "http://127.0.0.1:5000/api/refang?path=hxxps:\/\/twitter[dot]com"
+
 >  $ curl -X POST "http://127.0.0.1:5000/api/refang?path=hxxps:\/\/twitter[dot]com&encode=True"
 
 #### Response: 
