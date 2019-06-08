@@ -4,7 +4,9 @@ An api that *defangs* and *refangs* url paths.
 
 #### Example usage with requests  
 > response = requests.post(url="http://127.0.0.1:5000/api/defang", json= {"path" : "https://twitter.com"}) 
+
 > response = requests.post(url="http://127.0.0.1:5000/api/refang", json= {"path" : "hxxps:\\/\\/twitter[dot]com"})
+
 > response = requests.post(url="http://127.0.0.1:5000/api/refang", json= {"path" : "hxxps:\\/\\/twitter[dot]com", "encode" : true})
 
 #### Example usage with curl
