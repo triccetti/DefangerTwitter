@@ -18,5 +18,7 @@ An api that *defangs* and *refangs* url paths.
 
 #### Response: 
 > "defang_response": [ "hxxps:\\/\\/twitter[dot]com" ]
+
 > "refang_response": [ "https://twitter.com" ]
+
 > "refang_response": [ "https%3A%2F%2Ftwitter.com" ] 
