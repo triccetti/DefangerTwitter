@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask
 from flask_restful import Api, Resource, reqparse   
 from urllib.parse import quote_plus, unquote_plus
 
